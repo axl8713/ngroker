@@ -44,8 +44,6 @@ class Telegram_bot(object):
 
         content_type, chat_type, chat_id = telepot.glance(message)
 
-        print message
-
         try:
             self._check_recipient(message['from']['id'])
 
