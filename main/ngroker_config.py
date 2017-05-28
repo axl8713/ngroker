@@ -12,3 +12,4 @@ class Ngroker_Config(object):
     ngrok_auth_token = _config.get('ngrok','auth_token')
 
     telegram_bot_token = _config.get('telegram','bot_token')
+    telegram_allowed_recipient_id = _config.get('telegram','allowed_recipient_id')
