@@ -24,7 +24,7 @@ class Telegram_bot(object):
 
     _predefined_manager_tunnel_data = {"protocol":'http', "port": 4040, "name": "ngrok manager"}
     _predefined_ssh_tunnel_data = {"protocol": "tcp", "port": 22, "name": "SSH"}
-    _predefined_deluge_webui_data = {"protocol": "http", "port": 8113, "name": "deluge webui"}
+    _predefined_deluge_webui_data = {"protocol": "http", "port": 8112, "name": "deluge webui"}
 
     _predefined_tunnels = {
         _callback_data_ssh: _predefined_ssh_tunnel_data,
